@@ -20,3 +20,5 @@ try:
     print("ClassesDex: " + base64.b64encode(hash.digest()).decode("utf-8"));
 except Exception as e:
     print(sys.argv[1] + " not found.")
+    
+    '''Hello'''
